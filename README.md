@@ -67,9 +67,10 @@ This project is currently in the early stages of development. The following comp
 
 ```bash
 git clone https://github.com/prakashpandey/vegadb.git
-cd VegaDB
+cd vegadb
 go build -o vega-server ./cmd/server/main.go
 go build -o vega-client ./cmd/client/main.go
+
 UsageStart the server:./vega-server
 ```
 
